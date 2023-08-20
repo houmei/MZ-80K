@@ -1,0 +1,190 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4c07815a-c510-44da-af98-4d055fa8c080)
+
+  (paper "A4")
+
+  (title_block
+    (title "ROOT")
+    (date "2023-08-07")
+    (comment 1 "MZ-80K SERVICE MANUAL")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 63.5) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1261d4c0-7c07-49c6-a3e2-4026c0cb76ab)
+    (property "Sheetname" "VRAM" (at 76.2 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VRAM.kicad_sch" (at 76.2 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5642aa7e-459a-493a-9dd9-2322513fbca3)
+    (property "Sheetname" "RAM" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RAM.kicad_sch" (at 177.8 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 63.5) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 655b2a57-bfc0-4e66-85e7-e1ccf742c0b5)
+    (property "Sheetname" "VGEN" (at 127 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VGEN.kicad_sch" (at 127 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 699b0d99-8be3-416c-a0b6-f0a47feda4a1)
+    (property "Sheetname" "DECODER" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "decoder.kicad_sch" (at 76.2 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 101.6) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7b3a55ce-66ff-4227-8a4d-d2f73cb0a8bf)
+    (property "Sheetname" "PPI" (at 25.4 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PPI.kicad_sch" (at 25.4 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 26.035 63.5) (size 37.465 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 807f5867-0c0d-441f-abaa-a856f01f1e9a)
+    (property "Sheetname" "SYNC" (at 26.035 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SYNC.kicad_sch" (at 26.035 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 101.6) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid acc3a0ed-c820-4ad2-a14a-1c59b599576b)
+    (property "Sheetname" "TIMER" (at 76.2 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "TIMER.kicad_sch" (at 76.2 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b984b6d5-3152-4e4f-8542-c071b57f49ec)
+    (property "Sheetname" "RAMSELECT" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ramselect.kicad_sch" (at 127 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc1302d4-c004-470c-9bdf-6538c60fbf68)
+    (property "Sheetname" "CPU" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU.kicad_sch" (at 25.4 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 127 101.6) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d0b2a21e-b8af-4ebe-8deb-4118e94aec47)
+    (property "Sheetname" "CONN" (at 127 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CONN.kicad_sch" (at 127 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MZ80"
+        (path "/4c07815a-c510-44da-af98-4d055fa8c080" (page "11"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
