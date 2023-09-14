@@ -11,5 +11,5 @@
 + 初期基板 M-ROM 2708 x4、CGROM 2708 x2、電源コネクタ molex 5198/5283 (5.08mmピッチ)  
 + 後期基板 M-ROM 2532 x1、CGROM 2716、電源コネクタ JST 4P-LV/B4P-LV-TA (8.0mmピッチ)
 
-[電源コネクタ情報：@mono_Pさんより](https://twitter.com/momo_P/status/1702351033270481181)  
+電源コネクタ情報：[@mono_Pさんより](https://twitter.com/momo_P/status/1702351033270481181)  
 
