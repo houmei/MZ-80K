@@ -1776,7 +1776,7 @@
   (symbol (lib_id "Timer:ICM7555xP") (at 104.775 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2edc7755-df44-4be4-9cb4-2d7fa9720ad9)
-    (property "Reference" "U1" (at 106.9691 118.11 0)
+    (property "Reference" "U13" (at 106.9691 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICM7555xP" (at 106.9691 120.65 0)
@@ -1798,9 +1798,6 @@
     (pin "7" (uuid 95982889-6c0f-48c7-a166-2611c6ca23e4))
     (instances
       (project "MZ80"
-        (path "/4c07815a-c510-44da-af98-4d055fa8c080/7b3a55ce-66ff-4227-8a4d-d2f73cb0a8bf"
-          (reference "U1") (unit 1)
-        )
         (path "/4c07815a-c510-44da-af98-4d055fa8c080/acc3a0ed-c820-4ad2-a14a-1c59b599576b"
           (reference "U13") (unit 1)
         )

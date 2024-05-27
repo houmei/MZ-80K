@@ -3883,7 +3883,7 @@
   (symbol (lib_id "CPU:Z80CPU") (at 152.4 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a862d734-bc7d-4111-b774-946cc929d1bb)
-    (property "Reference" "U1" (at 154.5941 24.13 0)
+    (property "Reference" "U46" (at 154.5941 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Z80CPU" (at 154.5941 26.67 0)
@@ -3937,9 +3937,6 @@
     (pin "9" (uuid 325a9ea8-7547-4f71-8025-0c8fb6ddce29))
     (instances
       (project "MZ80"
-        (path "/4c07815a-c510-44da-af98-4d055fa8c080"
-          (reference "U1") (unit 1)
-        )
         (path "/4c07815a-c510-44da-af98-4d055fa8c080/bc1302d4-c004-470c-9bdf-6538c60fbf68"
           (reference "U46") (unit 1)
         )

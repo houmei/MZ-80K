@@ -3337,7 +3337,7 @@
   (symbol (lib_id "power:GND") (at 260.985 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fd6d737-5e4f-4afa-b56b-ce41519c6ec6)
-    (property "Reference" "#PWR0197" (at 260.985 48.895 0)
+    (property "Reference" "#PWR0214" (at 260.985 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.985 47.625 0)
@@ -3352,9 +3352,6 @@
     (pin "1" (uuid 14dbf7b4-2d45-48a3-8ce4-3e7b8c3c6a0d))
     (instances
       (project "MZ80"
-        (path "/4c07815a-c510-44da-af98-4d055fa8c080/655b2a57-bfc0-4e66-85e7-e1ccf742c0b5"
-          (reference "#PWR0197") (unit 1)
-        )
         (path "/4c07815a-c510-44da-af98-4d055fa8c080/7b3a55ce-66ff-4227-8a4d-d2f73cb0a8bf"
           (reference "#PWR0214") (unit 1)
         )
@@ -4309,7 +4306,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 266.065 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9957065c-b1ac-422b-9ea6-bbcedd587284)
-    (property "Reference" "J3" (at 264.795 22.86 0)
+    (property "Reference" "J5" (at 264.795 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "to CASETTE" (at 262.89 26.035 0)
@@ -4329,9 +4326,6 @@
     (pin "6" (uuid b4ca3683-2959-42c5-93ae-98539787097f))
     (instances
       (project "MZ80"
-        (path "/4c07815a-c510-44da-af98-4d055fa8c080/655b2a57-bfc0-4e66-85e7-e1ccf742c0b5"
-          (reference "J3") (unit 1)
-        )
         (path "/4c07815a-c510-44da-af98-4d055fa8c080/7b3a55ce-66ff-4227-8a4d-d2f73cb0a8bf"
           (reference "J5") (unit 1)
         )

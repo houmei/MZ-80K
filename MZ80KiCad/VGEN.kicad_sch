@@ -4588,9 +4588,6 @@
     (pin "7" (uuid 12ed00e4-ec5d-4415-9b44-a76554be4f89))
     (instances
       (project "MZ80"
-        (path "/4c07815a-c510-44da-af98-4d055fa8c080/807f5867-0c0d-441f-abaa-a856f01f1e9a"
-          (reference "U26") (unit 4)
-        )
         (path "/4c07815a-c510-44da-af98-4d055fa8c080/655b2a57-bfc0-4e66-85e7-e1ccf742c0b5"
           (reference "U26") (unit 4)
         )
